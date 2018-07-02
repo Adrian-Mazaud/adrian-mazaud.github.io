@@ -1,1 +1,76 @@
-"Hello world" 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Titre de la page</title>
+    <link rel="stylesheet" media="screen" href="assets/css/screen.css">
+    <link rel="stylesheet" media="print" href="assets/css/print.css">
+    <meta name="description" content="Description du site">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    	body{
+    		margin: 0;
+    	}
+
+    	header{
+    		width: 980px;
+    		margin: 50px auto 20px;
+    	}
+
+    	h1{
+    		font: 100 2rem/2rem sans-serif;
+    		color: #999;
+    	}
+
+    	.content{
+    		width: 980px;
+    		margin: 0 auto;
+    		padding-left: 10px;
+    	}
+
+    	footer{
+    		position: absolute;
+    		bottom: 10px;
+    		text-align: center;
+    		width: 100%;
+    	}
+
+    	footer a{
+    		font: 100 0.8rem/0.8rem sans-serif;
+    		color: rgba(0, 0, 0, 0.5);
+    		text-decoration: none;
+    	}
+
+    	.demo-preview{
+    		color: #1E90FF;
+    		text-decoration: none;
+    		font: 100 1rem/1rem sans-serif;
+    	}
+
+    	.demo-preview:hover, .demo-preview:focus{
+    		color: #4682B4;
+    	}
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Démos</h1>
+    </header>
+
+    <section class="content">
+        <div class="wrap">
+            <!-- Content -->
+            <div class="demo-preview-list">
+	            <a href="demos/defibrilateurs-poitiers" class="demo-preview" target="_blank">
+	            	Défibrilateurs Poitiers
+	            </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    	<a href="https://adrian-mazaud.fr">Adrian Mazaud - 2018</a>
+    </footer>
+</body>
+<script src="app/client.js"></script>
+</html>
